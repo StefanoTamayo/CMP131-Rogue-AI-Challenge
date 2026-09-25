@@ -2,12 +2,12 @@
 
 ## Team Information
 
-- Team name:
-- Team members:
-- Driver:
-- Logic Checker:
-- Test Engineer:
-- Reporter:
+- Team name: Team Rocket
+- Team members: Stefano Tamayo, James Laroche, Jeffrey Almendarez, Marvin Vicente
+- Driver: Stefano Tamayo
+- Logic Checker: James Laroche
+- Test Engineer: Jeffrey Almendarez
+- Reporter: Marvin Vicente
 
 ## Required Boundary Predictions
 
@@ -15,9 +15,9 @@ Complete these predictions before running the program.
 
 | Test | Temperature | Battery | Security | Predicted messages | Actual messages | Match? |
 |---|---:|---:|---|---|---|---|
-| A | 99 | 19 | safe |  |  |  |
-| B | 100 | 20 | danger |  |  |  |
-| C | 101 | 21 | DANGER |  |  |  |
+| A | 99 | 19 | safe | System Secure |System Secure|Yes  |
+| B | 100 | 20 | danger |SHUTDOWN REQUIRED|SHUTDOWN REQUIRED|Yes|
+| C | 101 | 21 | DANGER |SHUTDOWN REQUIRED|SHUTDOWN REQUIRED|Yes|
 
 ## AI-Assisted Tests
 
@@ -25,22 +25,22 @@ Ask the course AI assistant for one test at a time. Predict before running.
 
 | Test | Temperature | Battery | Security | Team prediction | Actual result | What we learned |
 |---|---:|---:|---|---|---|---|
-| 1 |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |
+| 1 |99 |20| safe | System Secure|System Secure|  |
+| 2 |50 |20  |DANGER |SHUTDOWN REQUIRED |SHUTDOWN REQUIRED  |  |
+| 3 |25  |15  | safe |System Secure |System Secure  |  |
 
 ## Random AI Safety Scenario
 
-- Random temperature:
-- Random battery:
-- Random security status:
-- Copilot's simulated program results:
+- Random temperature: 101
+- Random battery:15
+- Random security status: DANGER
+- Copilot's simulated program results: 
 - Did the logic pass this scenario?
-- Temperature safety advice:
-- Power safety advice:
-- Privacy/security advice:
-- Funny scenario message:
-- What we learned:
+- Temperature safety advice: None
+- Power safety advice: None
+- Privacy/security advice: None
+- Funny scenario message: 🔥 Oh no, our silly little AI is overheating and running on a very sleepy battery while the system is in danger mode! It should take a break, reduce its workload, and cool down. The battery needs power or a recharge, and the system should stop use immediately—no passwords, personal info, private documents, or API keys should be shared with the AI. This is a simulated code trace, not a real system check, but the warning is still serious and totally worth taking seriously.
+- What we learned: We understood the concept on how to use the if statement and combining them with others functions.
 
 ## Instructor Mystery Test
 
